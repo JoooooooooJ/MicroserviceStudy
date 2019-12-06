@@ -14,4 +14,7 @@ public class Car {
     @Id
     private String id;
     private String model;
+
+    public Car(String toString, String model) {
+    }
 }
